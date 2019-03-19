@@ -1,0 +1,20 @@
+{
+            "CompanyCodeValue": {
+                "type": "String",
+                "metadata": {
+                    "displayName": "Required value for CompanyCode tag"
+                    }
+                },
+            "CompanyValue": {
+                "type": "String",
+                "metadata": {
+                    "displayName": "Required value for Company tag"
+                    }
+                },
+            "CustomerIdValue": {
+                "type": "String",
+                "metadata": {
+                    "displayName": "Required value for CustomerId tag"
+                    }
+            }
+}
