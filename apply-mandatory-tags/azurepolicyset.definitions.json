@@ -1,0 +1,69 @@
+[
+    {
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/49c88fc8-6fd1-46fd-a676-f12d1d3a4c71",
+        "parameters": {
+            "tagName": {
+                "value": "CompanyCode"
+            },
+            "tagValue": {
+                "value": "[parameters('CompanyCodeValue')]"
+            }
+        }
+    },
+    {
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+        "parameters": {
+            "tagName": {
+                "value": "CompanyCode"
+            },
+            "tagValue": {
+                "value": "[parameters('CompanyCodeValue')]"
+            }
+        }
+    },
+    {
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/49c88fc8-6fd1-46fd-a676-f12d1d3a4c71",
+        "parameters": {
+            "tagName": {
+                "value": "Company"
+            },
+            "tagValue": {
+                "value": "[parameters('CompanyValue')]"
+            }
+        }
+    },
+    {
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+        "parameters": {
+            "tagName": {
+                "value": "Company"
+            },
+            "tagValue": {
+                "value": "[parameters('CompanyValue')]"
+            }
+        }
+    }
+    ,
+    {
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/49c88fc8-6fd1-46fd-a676-f12d1d3a4c71",
+        "parameters": {
+            "tagName": {
+                "value": "CustomerId"
+            },
+            "tagValue": {
+                "value": "[parameters('CustomerIdValue')]"
+            }
+        }
+    },
+    {
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+        "parameters": {
+            "tagName": {
+                "value": "CustomerId"
+            },
+            "tagValue": {
+                "value": "[parameters('CustomerIdValue')]"
+            }
+        }
+    }
+]
