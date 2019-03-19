@@ -1,0 +1,18 @@
+{
+    "TenantId" : "00000000-0000-0000-0000-000000000000",
+    "Company" : "VROCK",
+    "CompanyCode" : "vrock",
+    "CustomerId" : "0000000000",
+    "policyset" : {
+        "Name" : "Apply mandatory tags on all resources and resource groups",
+        "Description" : "This initiative will set policies which apply mandatory tags on all resources and resource groups",
+        "Scope" : "Tenant Root Group",
+        "Category" : "General"
+    },
+    "assignment" : {
+        "Name" : "Apply mandatory tags",
+        "Description" : "This initiative will set policies which apply mandatory tags on all resources and resource groups",
+        "Scope" : "Tenant Root Group",
+        "Type" : "Tagging"
+    }
+}
