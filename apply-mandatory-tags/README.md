@@ -9,5 +9,8 @@ Custom azure policy initiative which assigns mandatory tags to all resources and
 
 
 ``` powershell
+Login-AzAccount
+
 ./deploy -DeploymentParameterFile "./deploy.parameters.json" -PolicySetDefinitionFile "./azurepolicyset.definitions.json" -PolicySetParameterFile "./azurepolicyset.parameters.json"
+
 ```
